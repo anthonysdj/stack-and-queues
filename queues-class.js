@@ -29,7 +29,7 @@ class GroceryCounter {
     }
 
     queuedCustomers() {
-        console.log(this.customers[0]);
+        console.log(this.customers);
         return this.customers;
     }
 }
