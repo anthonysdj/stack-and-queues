@@ -1,3 +1,16 @@
+STACKS
 - you can only add and remove from the top
 - last in first out
-- 
+- push
+    - add to top of stack
+- pop
+    - remove top of stack
+- peek
+    - get top of stack
+
+QUEUES
+- first in first out
+- enqueue
+    - add to queue
+- dequeue
+    - remove from queue
