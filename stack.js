@@ -80,6 +80,16 @@ class Stack {
 
         return str;
     }
+
+    // reset the stack
+    clear()
+    {
+        this.items = []
+        this.count = 0
+        console.log(`items:${this.items}, stack_count:${this.count}`);
+
+        return this.items;
+    }
 }
 
 const stack = new Stack();
@@ -93,3 +103,4 @@ stack.pop();
 stack.peek();
 stack.isEmpty();
 stack.print();
+stack.clear();
